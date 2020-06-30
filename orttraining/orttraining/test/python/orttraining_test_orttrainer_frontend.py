@@ -9,7 +9,6 @@ from onnxruntime.capi.training import amp
 from onnxruntime.capi.training import model_desc_validation as md_val
 
 
-
 @pytest.mark.parametrize("test_input", [
     ({}),
     ({'batch': {},
